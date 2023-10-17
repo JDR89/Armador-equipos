@@ -31,8 +31,9 @@ const ClipBoard = ({team1,team2}) => {
   
 
   return (
-    <div className="mb-5">
+    <div className="mt-1 md:mb-3">
       <Button
+      sx={{  }}
         variant="contained"
         color="primary"
         onClick={handleCopyToClipboard}

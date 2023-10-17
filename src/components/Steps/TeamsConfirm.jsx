@@ -153,15 +153,20 @@ export const  TeamsConfirm=({team1,team2})=> {
 
   return (
     <CardLayout>
-    <Grid container spacing={2} justifyContent="center" alignItems="center">
+    <Grid  container spacing={2} justifyContent="center" alignItems="center">
       <Grid item>{customList('Equipo 1', left)}</Grid>
       <Grid item>
         <Grid container direction="column" alignItems="center">
-          <span className='text-xs'>Copiar</span>
-          <ClipBoard team1={left} team2={right}/>
 
+          <div  className='flex md:flex-col'>
+          
+          <div>
+          <ClipBoard team1={left} team2={right}/>
+          </div>
+
+          
           <Button
-            sx={{ my: 0.5 }}
+            sx={{ my: .5 }}
             variant="outlined"
             size="small"
             onClick={handleCheckedRight}
@@ -171,7 +176,7 @@ export const  TeamsConfirm=({team1,team2})=> {
             &gt;
           </Button>
           <Button
-            sx={{ my: 0.5 }}
+            sx={{ my: .5 }}
             variant="outlined"
             size="small"
             onClick={handleCheckedLeft}
@@ -180,6 +185,7 @@ export const  TeamsConfirm=({team1,team2})=> {
           >
             &lt;
           </Button>
+          </div>
         </Grid>
       </Grid>
       <Grid item>{customList('Equipo 2', right)}</Grid>
