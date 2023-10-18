@@ -80,7 +80,7 @@
   },
   {
     "id": 14,
-    "name": "Nico pos",
+    "name": "Nico",
     "position": "med",
     "selected": false
   },
@@ -106,8 +106,8 @@
   },
   {
     "id": 19,
-    "name": "Bacha POS",
-    "position": "def",
+    "name": "Bacha",
+    "position": "del",
     "selected": false
   },
   {
