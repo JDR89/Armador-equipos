@@ -166,6 +166,12 @@
   },
   {
     "id": 29,
+    "name": "Mati viking",
+    "position": "med",
+    "selected": false
+  },
+  {
+    "id": 30,
     "name": "Mati",
     "position": "med",
     "selected": false

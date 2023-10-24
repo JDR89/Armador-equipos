@@ -15,7 +15,7 @@ export const PlayersCard = ({setSelectedPlayers,selectedPlayers}) => {
   const [newBot, setNewBot] = useState({
     name:"",
     position:"",
-    selected: false
+    selected: true
   })
 
   const{position,name,onInputChange,onResetForm}=useForm(newBot)
@@ -110,6 +110,7 @@ export const PlayersCard = ({setSelectedPlayers,selectedPlayers}) => {
             onChange={onInputChange}
             value={name}
             required
+            inputProps={{ maxLength: 17 }}
           />
 
           

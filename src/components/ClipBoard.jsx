@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Button from '@mui/material/Button'
-import FileCopyIcon from '@mui/icons-material/FileCopy';
+// import FileCopyIcon from '@mui/icons-material/FileCopy';
 import clipboardCopy from "clipboard-copy";
 
 
@@ -32,13 +32,15 @@ const ClipBoard = ({team1,team2}) => {
 
   return (
     <div className="mt-1 md:mb-3">
+      
       <Button
       sx={{  }}
         variant="contained"
         color="primary"
         onClick={handleCopyToClipboard}
       >
-       <FileCopyIcon />
+        <span className="text-xs">Copiar</span>
+       {/* <FileCopyIcon /> */}
       </Button>
     </div>
   );
