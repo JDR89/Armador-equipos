@@ -4,8 +4,9 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 
 
+
 const appBarStyle = {
-  backgroundImage: 'url("../../assets/futbol.jpg")',
+  backgroundImage: 'url("../../public/futbol.jpg")',
   backgroundPosition: 'center',
   backgroundSize: 'cover',
  
