@@ -12,7 +12,7 @@ const ClipBoard = ({team1,team2}) => {
    
    const arrayDeStrings = ListaTeamUno;
    const arrayDeStringsDos = ListaTeamDos
-   const cadenaCopy = "--Team 1--"+"\n" + arrayDeStrings.join("\n")+"\n" + "--Team 2--"+"\n" + arrayDeStringsDos.join("\n")
+   const cadenaCopy = "--Team 1--"+"\n" + arrayDeStrings.join("\n")+"\n" +"\n" + "--Team 2--"+"\n" + arrayDeStringsDos.join("\n")
 
 
   const handleCopyToClipboard = async () => {
