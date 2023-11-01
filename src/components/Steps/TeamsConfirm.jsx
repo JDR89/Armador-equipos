@@ -82,8 +82,8 @@ export const  TeamsConfirm=({team1,team2})=> {
   };
 
   useEffect(() => {
-    setLeft(team1.map((e) => e.name));
-    setRight(team2.map((e) => e.name));
+    setLeft(team1.map((e) => e.name + " " + "(" + e.position + ")"));
+    setRight(team2.map((e) => e.name + " " + "(" + e.position + ")"));
   }, [team1, team2]);
 
 

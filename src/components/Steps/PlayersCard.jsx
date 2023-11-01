@@ -51,7 +51,7 @@ export const PlayersCard = ({setSelectedPlayers,selectedPlayers}) => {
 
     const botEntry = {
       ...newBot,
-      name: name + " (" + position.toLowerCase()+")",
+      name: name +" "+"BOT",
       position: position,
       id:new Date().getTime()
     }
