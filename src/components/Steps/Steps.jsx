@@ -244,6 +244,7 @@ function Steps() {
           disabled={
             activeStep === steps.length - 1 ||
             (selectedPlayers.length !== 18 &&
+              selectedPlayers.length !== 16 &&
               selectedPlayers.length !== 14 &&
               selectedPlayers.length !== 22 &&
               selectedPlayers.length !== 10 &&
